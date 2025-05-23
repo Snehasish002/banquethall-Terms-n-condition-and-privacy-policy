@@ -1,0 +1,113 @@
+.main {
+  font-family: "Roboto", sans-serif;
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  background: linear-gradient(to right, #007bff, #9ed3ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.underline {
+  height: 1.5px;
+  background-color: #72727268;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.terms-container {
+  max-width: 900px;
+  margin: 4.5rem auto;
+  padding: 0 1rem;
+}
+
+.term-section {
+  margin-bottom: 2rem;
+}
+
+.term-section h2 {
+  font-size: 1.5rem;
+  color: #007bff;
+  margin-bottom: 0.5rem;
+}
+
+.term-section p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.term-text {
+  white-space: pre-line;
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .main {
+    margin-top: 80px;
+    padding: 0 1rem;
+  }
+  .terms-container {
+    max-width: 700px;
+    margin: 1.8rem auto;
+    padding: 0 1.25rem;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .term-section h2 {
+    font-size: 1.25rem;
+  }
+
+  .term-text {
+    font-size: 0.95rem;
+  }
+
+  .underline {
+    height: 1px;
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 1.75rem;
+  }
+
+  .term-section h2 {
+    font-size: 1.1rem;
+  }
+
+  .term-text {
+    font-size: 0.9rem;
+  }
+
+  .terms-container {
+    padding: 0 1rem;
+  }
+
+  .main {
+    padding: 0 1rem;
+  }
+}
