@@ -31,14 +31,27 @@
   border-radius: 10px;
 }
 
+.effective-date {
+  font-size: 1rem;
+  font-weight: 800;
+  color: #222222;
+  margin: 2.5rem auto;
+}
+
+.effective-date span {
+  font-weight: 500;
+  color: #000;
+}
+
 .terms-container {
   max-width: 900px;
-  margin: 4.5rem auto;
+  margin: 0.5rem auto;
   padding: 0 1rem;
+  color: #343434;
 }
 
 .term-section {
-  margin-bottom: 2rem;
+  margin: 2rem;
 }
 
 .term-section h2 {
@@ -60,6 +73,31 @@
   line-height: 1.6;
 }
 
+.text-highlight {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 800;
+  color: #222222;
+}
+
+.text-highlight span {
+  font-weight: 400;
+}
+
+.term-list {
+  padding: 1.5rem 4rem;
+}
+
+.email-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   .main {
     margin-top: 80px;
@@ -67,7 +105,7 @@
   }
   .terms-container {
     max-width: 700px;
-    margin: 1.8rem auto;
+    margin: 0.1rem auto;
     padding: 0 1.25rem;
   }
 
@@ -76,18 +114,14 @@
   }
 
   .term-section h2 {
-    font-size: 1.25rem;
+    font-size: 3rem;
   }
 
   .term-text {
     font-size: 0.95rem;
   }
 
-  .underline {
-    height: 1px;
-    width: 100%;
-    max-width: 300px;
-  }
+  
 }
 
 @media (max-width: 480px) {
@@ -96,7 +130,7 @@
   }
 
   .term-section h2 {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
 
   .term-text {
@@ -109,5 +143,30 @@
 
   .main {
     padding: 0 1rem;
+  }
+
+  .effective-date {
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: #222222;
+    margin: 1.5rem auto;
+  }
+
+  .effective-date span {
+    font-weight: 500;
+    color: #000;
+  }
+
+  .term-list {
+    padding: .5rem 1rem;
+  }
+
+   .term-list li {
+    font-size: small;
+   }
+
+   .underline {
+    width: 100%;
+    max-width: 300px;
   }
 }
