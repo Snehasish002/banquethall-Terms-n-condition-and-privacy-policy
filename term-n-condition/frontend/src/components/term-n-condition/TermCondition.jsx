@@ -1,24 +1,6 @@
 import React from "react";
 import "./TermCondition.css";
 
-// const termsData = [
-//   {
-//     title: "Term One",
-//     description:
-//       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, magni nihil reiciendis praesentium non ullam! Et recusandae porro incidunt saepe, repellat consectetur quibusdam, iste, totam delectus ex atque necessitatibus laudantium? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, magni nihil reiciendis praesentium non ullam! Et recusandae porro incidunt saepe, repellat consectetur quibusdam, iste, totam delectus ex atque necessitatibus laudantium?",
-//   },
-//   {
-//     title: "Term Two",
-//     description:
-//       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, magni nihil reiciendis praesentium non ullam! Et recusandae porro incidunt saepe, repellat consectetur quibusdam, iste, totam delectus ex atque necessitatibus laudantium?",
-//   },
-//   {
-//     title: "Term Three",
-//     description:
-//       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, magni nihil reiciendis praesentium non ullam! Et recusandae porro incidunt saepe, repellat consectetur quibusdam, iste, totam delectus ex atque necessitatibus laudantium?",
-//   },
-// ];
-
 const TermCondition = () => {
   return (
     <div className="main">
@@ -31,6 +13,13 @@ const TermCondition = () => {
       </p>
       <div className="terms-container">
         <div className="term-section">
+          <p className="term-text">
+            Welcome to Banquethall.co. These Terms & Conditions (“Terms”) govern
+            your access to and use of our website and services. By using
+            Banquethall.co, you agree to be bound by these Terms.
+          </p>
+        </div>
+        <div className="term-section">
           <h2>1. Use of the Website</h2>
           <p className="term-text">
             Banquethall.co provides a platform to browse, book, and manage
@@ -39,7 +28,7 @@ const TermCondition = () => {
           </p>
           <p className="text-highlight">
             Eligibility:{" "}
-            <span>You must be at least 18 years old to use our services</span>
+            <span>You must be at least 18 years old to use our services.</span>
           </p>
           <p className="text-highlight">
             Account Responsibility:{" "}

@@ -45,7 +45,7 @@
 
 .terms-container {
   max-width: 900px;
-  margin: 0.5rem auto;
+  margin: 0.1rem auto;
   padding: 0 1rem;
   color: #343434;
 }
@@ -86,6 +86,10 @@
 
 .term-list {
   padding: 1.5rem 4rem;
+}
+
+.term-list li {
+  margin-bottom: 10px;
 }
 
 .email-link {
